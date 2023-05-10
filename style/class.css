@@ -1,0 +1,33 @@
+#title h1{
+	line-height: 80px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+#intro{
+	margin: 60px 0px;
+}
+#intro img{
+	width: 60%;
+	border-radius: 50px;
+}
+#intro p{
+	font-size: 18px;
+}
+
+#classes{
+	margin: 52px 0px;
+}
+
+@media only screen and (max-width: 767px){
+	#intro img{
+		width: 40%;
+	}
+	#intro h3,p{
+		text-align: start;
+	}
+
+	#classes .col-md-6{
+		margin-bottom: 40px;
+	}
+}

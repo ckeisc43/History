@@ -1,0 +1,62 @@
+#title h1{
+	line-height: 80px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+#staff .year{
+	padding: 60px 0px;
+}
+#staff .color-1{
+	background: white;
+}
+#staff .color-2{
+	background: rgb(248, 248, 248);
+}
+#staff h3{
+    margin: 26px 0px;
+    font-size: 32px;
+}
+#staff img{
+	width: 80%;
+	border-radius: 10%;
+}
+#staff p{
+	font-size: 26px;
+    margin: 10px 0px;
+    font-weight: 300;
+}
+#staff .Y2022 .row{
+	margin-bottom: 80px;
+}
+#staff .Y2022 blockquote{
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 992px){
+	#staff p{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	#staff h3{
+		text-align: center;
+	}
+	#staff .Y2022 h3{
+		text-align: left;
+		margin: 10px 0px;
+	}
+	#staff .Y2022 h5{
+		margin-top: 10px;
+	}
+	#staff img{
+		width: 50%;
+	}
+	#staff .Y2022 img{
+		width: 70%;
+	}
+	#staff p{
+		font-size: 32px;
+	}
+}

@@ -1,0 +1,163 @@
+#intro .jumbotron{
+	height: 70vh;
+	margin-bottom: 0px;
+	background-image: url("../images/cover.jpg");
+	background-size: cover;
+}
+#intro h1{
+	font-size: 75px;
+	font-weight: 600;
+	color: #FFFFFF;
+	word-wrap:break-word;
+}
+
+#second h3{
+	font-size: 36px;
+}
+#second .btn{
+	margin-top: 50px;
+}
+#intro .btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+#intro .container{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#second{
+	padding: 50px 0px;
+}
+#second img{
+	width: 80px;
+	border-radius: 100%;
+	margin-bottom: 13px;
+}
+#second .content{
+	margin: 25px 0px;
+}
+#second .sign{
+	font-size: 15px;
+}
+
+#latest{
+	background-color: rgb(248, 248, 248);
+	padding: 30px 0px;
+}
+#latest a{
+	border-radius: 20px;
+}
+#latest h3{
+	margin-bottom: 80px;
+}
+#latest img{
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+}
+#latest .upper{
+	position: relative;
+}
+#latest .innertext{
+	position: absolute;
+	bottom: 24px;
+	left: 24px;
+}
+#latest .innertext span{
+    background: rgba(255,255,255,0.5);
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+#latest .innertext h4{
+	font-size: 18px;
+    margin-top: 18px;
+    font-weight: 300;
+}
+#latest .lower h3{
+    font-size: 24px;
+    margin: 12px 0px;
+}
+#latest .outer{
+	background: white;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    border-radius: 5px;
+}
+#latest .lower{
+	padding: 6px 20px 20px 20px;
+}
+#latest .col-md-4{
+	margin:auto;
+}
+
+#email{
+	padding: 80px 0px;
+}
+#email h3{
+	margin-bottom: 80px;
+}
+#email .btn{
+	margin-top: 10px;
+}
+
+
+
+@media only screen and (max-width: 1100px){
+	#intro h1{
+	    font-size: 44px;
+	    font-weight: 600;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	#second h5{
+	    font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#second .btn {
+	    margin-top: 20px;
+	    margin-bottom: 30px;
+	}
+	#latest .col-md-4 {
+	    margin: 10px auto;
+	}
+}
+
+@media only screen and (max-width: 640px){
+	#latest .col-md-4 {
+	    margin: 10px auto;
+	    width: 80%;
+	}
+}
+
+@media only screen and (max-width: 540px){
+	#intro h1{
+	    font-size: 36px;
+	    font-weight: 600;
+	}
+	#second h3{
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	#intro h1{
+	    font-size: 30px;
+	    font-weight: 600;
+	}
+	#intro .jumbotron{
+		height: 40vh;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#intro h1{
+	    font-size: 24px;
+	    font-weight: 600;
+	}

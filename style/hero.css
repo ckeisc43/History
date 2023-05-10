@@ -1,0 +1,60 @@
+#title h1{
+	line-height: 80px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+#intro{
+	margin: 60px 0px;
+}
+#intro img{
+	width: 60%;
+	border-radius: 50px;
+}
+
+#heroes img{
+	width: 70%;
+	border-radius: 20px;
+}
+
+
+#heroes .row{
+	margin-bottom: 100px;
+}
+#heroes h5{
+	font-size: 18px;
+}
+#heroes h3{
+	font-size: 32px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+#heroes h3 span{
+	font-size: 16px;
+}
+#heroes blockquote{
+	font-size: 18px;
+	font-weight: 400;
+}
+#heroes figcaption{
+	margin-bottom: 40px;
+}
+#heroes .self-intro{
+	color: #000000;
+}
+
+@media only screen and (max-width: 767px){
+	#intro img{
+		width: 40%;
+	}
+	#intro h3,p{
+		text-align: start;
+	}
+
+	#heroes img{
+		width: 60%;
+	}
+	#heroes h5{
+		margin-top: 32px;
+	}
+}

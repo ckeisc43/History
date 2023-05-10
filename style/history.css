@@ -1,0 +1,131 @@
+p{
+	color: #404040;
+}
+
+#title h1{
+	line-height: 80px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+#intro{
+	margin: 60px 0px;
+}
+#intro img{
+	width: 60%;
+	border-radius: 50px;
+}
+
+#periods .col-md-1{
+	position: relative;
+}
+
+#periods .time-point{
+	height: 40px;
+	width: 40px;
+	background: white;
+	border: 6px solid #024959;
+	border-radius: 100px;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	-webkit-transform: translateY(72px) translateX(-50%);
+	-ms-transform: translateY(72px) translateX(-50%);
+	transform: translateY(72px) translateX(-50%);
+}
+
+#periods .Y1980,.Y1995,.Y2010{
+	background: rgb(248, 248, 248);
+}
+
+#periods .strip{
+	height: 100%;
+	width: 16px;
+	margin: 0px auto;
+	background: #024959;
+}
+
+#periods .col-md-3,.col-md-8{
+	margin: 40px 0px;
+}
+
+#periods .Y1980 .strip{
+	background: linear-gradient(to bottom, white, #024959, #024959, #024959, #024959, #024959, #024959, #024959);
+}
+
+#periods .Y2020 .strip{
+	background: linear-gradient(to bottom, #024959, #024959, #024959, #024959, #024959, #3CA6A6, #3CA6A6, white);
+}
+
+#periods h3{
+	font-size: 36px;
+    font-weight: 500;
+}
+
+#periods .content{
+	margin-bottom: 28px;
+}
+
+#periods span{
+	font-size: 18px;
+}
+
+#periods .caption{
+	font-size: 14px;
+}
+
+#chronology img{
+	width: 80%;
+}
+
+#chronology h3{
+	margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#ending h3{
+	font-size: 36px;
+    font-weight: 300;
+    margin: 52px 0px;
+    color: #AAAAAA;
+}
+
+@media only screen and (max-width: 767px){
+	#periods .time-point{
+		opacity: 0;
+	}
+	#periods .strip{
+		opacity: 0;
+	}
+	#periods .col-md-3,.col-md-8{
+		margin: 20px 0px;
+	}
+	#intro h3{
+		text-align: left;
+		margin: 16px 0px;
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	#title h1{
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	#title h1{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 300px){
+	#title h1{
+		font-size: 14px;
+	}
+	#intro p{
+		font-size: 10px;
+	}
+}
