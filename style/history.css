@@ -107,10 +107,16 @@ p{
 		margin: 16px 0px;
 		font-size: 28px;
 	}
+	#ending h3{
+		font-size: 30px;
+	}
 }
 
 @media only screen and (max-width: 500px){
 	#title h1{
+		font-size: 24px;
+	}
+	#ending h3{
 		font-size: 24px;
 	}
 }
