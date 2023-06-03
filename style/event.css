@@ -82,6 +82,9 @@
 	font-size: 14px;
 }
 
+#equipment .row{
+	margin-bottom: 20px;
+}
 #equipment h3{
 	margin-top: 52px;
 	margin-bottom: 24px;
