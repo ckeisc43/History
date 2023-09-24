@@ -1,0 +1,38 @@
+*{
+	font-size: 30px;
+}
+
+.a{
+	color: red;
+}
+
+.b{
+	color: white;
+}
+.b:active{
+	color: black;
+	transition-duration: 400ms;
+}
+
+.d{
+	color: white;
+}
+.d:hover{
+	color: skyblue;
+	transition-duration: 0.6s;
+}
+
+.e{
+	font-size: 30px;
+}
+.e:hover{
+	font-size: 40px;
+	transition-duration: 0.6s;
+}
+
+.f{
+	border: 0px;
+}
+.f:hover{
+	border: 5px yellow solid;
+}
