@@ -8,26 +8,29 @@
 
 .b{
 	color: white;
+	transition-property: color;
+	transition-duration: 400ms;
 }
 .b:active{
 	color: black;
-	transition-duration: 400ms;
 }
 
 .d{
 	color: white;
+	transition-property: color;
+	transition-duration: 0.6s;
 }
 .d:hover{
 	color: skyblue;
-	transition-duration: 0.6s;
 }
 
 .e{
 	font-size: 30px;
+	transition-property: font-size;
+	transition-duration: 0.6s;
 }
 .e:hover{
-	font-size: 40px;
-	transition-duration: 0.6s;
+	font-size: 40px;	
 }
 
 .f{
