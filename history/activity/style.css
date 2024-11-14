@@ -1,0 +1,71 @@
+#title h1{
+	line-height: 80px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+#intro{
+	margin: 60px 0px;
+}
+#intro img{
+	width: 60%;
+	border-radius: 50px;
+}
+#intro p{
+	font-size: 18px;
+}
+
+.content img{
+	width: 330px;
+	border-radius: 10px;
+}
+
+#fourty-three{
+	padding: 44px 0px;
+	background: rgb(248, 248, 248);
+}
+
+#fourty-three .intro h5{
+	font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px -2px 0px;
+}
+
+#fourty-three .intro h3{
+	font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#fourty-three .intro img{
+	width: 400px;
+    border: #333333 solid 2px;
+    border-radius: 20px;
+}
+
+#fourty-three .content h3{
+	text-shadow: 1px 2px #d7d7d7;
+    font-size: 26px;
+    margin: 6px 0px 0px 0px;
+    font-weight: 400;
+}
+
+#fourty-three .content h5{
+	margin: 4px 0px 60px 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+@media only screen and (max-width: 767px){
+	#intro img{
+		width: 40%;
+	}
+	#intro h3,p{
+		text-align: start;
+	}
+
+	#classes .col-md-6{
+		margin-bottom: 40px;
+	}
+}
