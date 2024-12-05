@@ -56,12 +56,44 @@
 	border-radius: 10px;
 }
 
+.ancient{
+	padding: 44px 0px;
+}
+
+.ancient .intro h5{
+	font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px -2px 0px;
+}
+
+.ancient .intro h3{
+	font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.ancient .intro img{
+	width: 400px;
+    border: #333333 solid 2px;
+    border-radius: 20px;
+}
+
+.ancient img{
+	margin-bottom: 24px;
+}
+
 @media only screen and (max-width: 1399px){
 	.intro{
 		padding: 0px 30px 0px 0px;
 	}
 
 	#fourty-three .intro img{
+		width: 350px;
+	    border: #333333 solid 2px;
+	    border-radius: 10px;
+	}
+
+	.ancient .intro img{
 		width: 350px;
 	    border: #333333 solid 2px;
 	    border-radius: 10px;
@@ -83,12 +115,19 @@
 		width: 300px;
 		border-radius: 10px;
 	}
+
+	.ancient .intro img{
+		width: 290px;
+	    border: #333333 solid 2px;
+	    border-radius: 10px;
+	}
 }
 
 @media only screen and (max-width: 991px){
 	.intro{
 		padding: 0px 20px 0px 0px;
 	}
+
 	#fourty-three .intro h3{
 		font-size: 30px;
 	}
@@ -111,6 +150,13 @@
 	#fourty-three .content h5{
 		font-size: 16px;
 	}
+
+	.ancient .intro img{
+		width: 204px;
+	    border: #333333 solid 2px;
+	    border-radius: 8px;
+	}
+
 }
 
 @media only screen and (max-width: 767px){
@@ -146,5 +192,12 @@
 	    margin: 4px 0px 36px 0px;
 	    font-size: 18px;
 	    font-weight: 300;
+	}
+
+	.ancient .intro img{
+		width: 300px;
+	    border: #333333 solid 2px;
+	    border-radius: 8px;
+	    margin-bottom: 120px;
 	}
 }
