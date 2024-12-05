@@ -22,13 +22,19 @@ header{
 	top: 0;
 	z-index: 1000;
 	background-color: white;
+	border-bottom: #d4d4d4 solid;
 }
 
 header nav img{
-	width: 130px;
+	width: 100px;
 }
 header nav li{
 	margin: 0px 18px;
+}
+
+header a{
+	font-size: 20px;
+	font-weight: 500;
 }
 
 footer{
