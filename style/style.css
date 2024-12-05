@@ -17,14 +17,6 @@ a{
 	text-decoration: none;
 }
 
-header{
-	position: sticky;
-	top: 0;
-	z-index: 1000;
-	background-color: white;
-	border-bottom: #d4d4d4 solid;
-}
-
 header nav img{
 	width: 100px;
 }
